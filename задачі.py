@@ -57,7 +57,7 @@ print(len(a))
 print('Завдання 6')
 h=['12']
 for i in h:
-    if i is '12' :
+    if i in '12' :
         print('Є цифра 12')
     else:
         print('Цифри немає або інша цифри')
